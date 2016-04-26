@@ -16,7 +16,7 @@ namespace Byng\Pimcore\DoctrineMigrations;
 use Composer\Script\Event;
 
 /**
- * Install
+ * Doctrine Migrations Installer
  *
  * @author Elliot Wright <elliot@elliotwright.co>
  */
