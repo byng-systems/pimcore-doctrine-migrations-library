@@ -34,8 +34,8 @@ final class Install
         $installPath = self::prepareBaseDirectorie($event);
         $migrationsDir = $installPath . "/migrations";
 
-        $configFile = $installPath . "/migrations-db.php";
-        $dbConfigFile = $installPath . "/migrations.yml";
+        $configFile = $installPath . "/migrations.yml";
+        $dbConfigFile = $installPath . "/migrations-db.php";
 
         if (!file_exists($migrationsDir)) {
             mkdir($migrationsDir);
