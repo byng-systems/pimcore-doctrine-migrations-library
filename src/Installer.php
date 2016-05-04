@@ -20,7 +20,7 @@ use Composer\Script\Event;
  *
  * @author Elliot Wright <elliot@elliotwright.co>
  */
-final class Install
+final class Installer
 {
     /**
      * Copy Pimcore to the 'document-root-path', or a sensible default

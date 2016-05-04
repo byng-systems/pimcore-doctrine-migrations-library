@@ -17,7 +17,7 @@ Require the library via Composer (this library must be installed via Composer):
 $ composer require byng/pimcore-doctrine-migrations-library
 ```
 
-Then in your project's composer.json file add the following snippets:
+Then in your project's `composer.json` file add the following snippets:
 
 ```
 {
@@ -40,8 +40,8 @@ Then in your project's composer.json file add the following snippets:
 
 The project root path is necessary so that the installer can create a migrations folder.
 
-Note: The installation script will overwrite the migrations configuration files created in the 
-project root. Changes to these files will be overwritten on composer install and update. We 
+Note: The installation script will overwrite the migrations configuration files created in the
+project root. Changes to these files will be overwritten on composer install and update. We
 recommend placing them in your ignore file(s).
 
 ## Usage

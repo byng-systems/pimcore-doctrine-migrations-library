@@ -13,6 +13,6 @@
         }
     },
     "extra": {
-        "class": "Byng\\Pimcore\\DoctrineMigrations\\Install"
+        "class": "Byng\\Pimcore\\DoctrineMigrations\\Installer"
     }
 }
