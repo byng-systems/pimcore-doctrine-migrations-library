@@ -28,10 +28,10 @@ Then in your project's `composer.json` file add the following snippets:
     ...
     "scripts": {
         "post-install-cmd": [
-            "Byng\\Pimcore\\DoctrineMigrations\\Install::install"
+            "Byng\\Pimcore\\DoctrineMigrations\\Installer::install"
         ],
         "post-update-cmd": [
-            "Byng\\Pimcore\\DoctrineMigrations\\Install::install"
+            "Byng\\Pimcore\\DoctrineMigrations\\Installer::install"
         ]
     }
     ...
