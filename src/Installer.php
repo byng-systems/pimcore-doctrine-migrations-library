@@ -97,6 +97,7 @@ return [
     "dbname"   => \$params->dbname,
     "user"     => \$params->username,
     "password" => \$params->password,
+    "port"     => \$params->port,
 ];
 
 EOF;
